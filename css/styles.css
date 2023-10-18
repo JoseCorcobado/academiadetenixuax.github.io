@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0077b6;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titulo-inicio {
+    font-size: 36px;
+    color: #fff;
+}
+
+.menu-navegacion ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-navegacion li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-navegacion a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.seccion-noticias {
+    text-align: center;
+}
+
+.noticia-grande {
+    display: flex;
+    border: 1px solid #ccc;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.noticia-grande-texto {
+    flex: 1;
+    margin-left: 20px;
+    text-align:left;
+}
+
+.noticias-pequeñas {
+    display: flex;
+}
+
+.noticia-pequeña {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.noticia-pequeña img {
+    max-width: 100%;
+}
+
+.footer {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.seccion-tarifas {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto; 
+    border: 2px solid #0077b6;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #0077b6; 
+    padding: 10px;
+}
+
+table th {
+    background-color: #0077b6;
+    color: #fff;
+}
+
+#footer-tarifas {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.seccion-profesores{
+    text-align: center;
+}
+
+.profesores {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profesor {
+    text-align: center;
+    margin: 10px;
+}
+
+.profesor img {
+    width: 250px; 
+    height: 250px;
+    object-fit: cover;
+}
+
+.seccion-contacto{
+    text-align: center;
+}
+
+form label {
+    display: block; /* Hace que las etiquetas se muestren en una nueva línea */
+    margin-top: 15px;
+    margin-bottom: 10px; /* Agrega margen inferior a las etiquetas */
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    margin-top: 70px;
+    font-weight: 800;
+    background-color: aqua;
+}
+
+.mensaje-agradecimiento{
+    text-align: center;
+}
