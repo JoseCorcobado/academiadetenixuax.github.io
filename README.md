@@ -1,1 +1,0 @@
-# academiadetenixuax.github.io
